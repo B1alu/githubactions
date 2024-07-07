@@ -21,7 +21,7 @@ jobs:
       - name: build and push docker image
         uses: docker/build-push-action@v4
         with:
-          context: Dockerfile
+          context: Dockerfile/
           push: true
           tags: balu071/actions:latest
     
